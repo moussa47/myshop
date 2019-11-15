@@ -22,9 +22,9 @@ export default class Navbar extends Component {
                 <PhotoConsumer>
                       {value=>{
                           return(
-            <nav className="navbar" onClick={()=>value.closeModal()}>
-                <div className="nav-center">
-                    <div className="nav-header">
+            <nav className="navbar1" onClick={()=>value.closeModal()}>
+                <div className="nav-center1">
+                    <div className="nav-header1">
 
 
                    
@@ -42,16 +42,16 @@ export default class Navbar extends Component {
                        </div>
                         
                         <div className={{marginTop: 20}}>
-                       <button type="button" className=" nav-btn"
+                       <button type="button" className=" nav-btn1"
                        onClick={this.handleToggle}>
                             
-                           <FaAlignRight className="nav-icon"/>
+                           <FaAlignRight className="nav-icon1"/>
                        </button>
                        </div>
                       
                     </div>
-                    <ul className={this.state.isOpen?"nav-links show-nav":
-                    "nav-links"}>
+                    <ul className={this.state.isOpen?"nav-links1 show-nav1":
+                    "nav-links1"}>
                     <li>
                         <Link to='/sacs'  className="a">
                         <ButtonContainer cart onClick={this.handleToggle}>sacs </ButtonContainer></Link>
