@@ -21,7 +21,7 @@ export default class Dashboard extends Component {
          return (
             
          <div className="back">
-             {/* <Links />  */}
+             
             
               <Article  photo={this.state.photo}/>
           </div> 

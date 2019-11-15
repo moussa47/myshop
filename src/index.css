@@ -19,6 +19,7 @@ body {
         background: url("./defaultBcg.jpeg") center/cover no-repeat; */
         background:var(--mainWhite);
         font-family: 'Lobster', cursive !important;
+        margin-top: 30px;
         
         /* display: flex; 
          align-items: center;  
@@ -30,13 +31,13 @@ body {
  width: 3rem;
 }
 .navbar{
-    height:15%;
+    height:15% !important;
 }
 .ul{
-    display: inline;
+    display: inline !important;
 }
 .sacs{
-    background: #4d5052;
+    background: #4d5052 !important;
 }
 .foot{
     font-family: 'Lobster', cursive !important;
