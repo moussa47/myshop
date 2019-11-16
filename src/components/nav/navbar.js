@@ -19,7 +19,7 @@ export default class Navbar extends Component {
                    
                  
                    <div  className="col-sm-12  col-md-12 mx-auto col-lg-4">
-                   <Link to='/modalvet'>
+                   <Link to='/'>
                             <ButtonContainer >
                             
                              karballah
