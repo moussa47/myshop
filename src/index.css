@@ -19,7 +19,7 @@ body {
         background: url("./defaultBcg.jpeg") center/cover no-repeat; */
         background:var(--mainWhite);
         font-family: 'Lobster', cursive !important;
-        margin-top: 30px;
+        margin-top: 2rem;
         
         /* display: flex; 
          align-items: center;  
@@ -31,7 +31,7 @@ body {
  width: 3rem;
 }
 .navbar{
-    height:15% !important;
+   background-color: #151516ed !important; 
 }
 .ul{
     display: inline !important;
@@ -49,86 +49,12 @@ body {
 
 /* ---- */
 
-.navbar1 {
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0.75rem 2rem;
-    background: rgb(54, 53, 53);
-    z-index: 1;
-    font-family: 'Anton', sans-serif;
-  }
-  .nav-header1 {
-    display: flex;
-    justify-content: space-between;
-  }
-  .nav-btn1 {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-   
-  }
-  .nav-icon1 {
-    font-size: 1.5rem;
-    color: tomato;
-    margin-left: 30px;
-    border: none;
-    transition: height 2s ease-in-out;
-  }
-  .nav-icon1:hover{
-    padding: 30;
-    
-   height: 40px;
-    width: 70px;
-  }
-  .nav-links1 {
-    height: 0;
-    overflow: hidden;
-    transition: var(--mainTransition);
-    list-style-type: none;
-  }
-  .a {
-    display: block;
-    text-decoration: none;
-    padding: 1rem 0;
-    color: var(--mainBlack);
-    transition: var(--mainTransition);
-    text-align: start;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: var(--mainSpacing);
-    text-decoration: none;
-  }
-  .nav-links1 a:hover {
-    color: var(--primaryColor);
-  }
-  
-  .show-nav1 {
-    height: 400px;
-  }
-  @media screen and (min-width: 980px) {
-    .nav-btn1 {
-      display: none;
-    }
-    .nav-center1 {
-      max-width: 1170px;
-      margin: 0 auto;
-      display: flex;
-    }
-    .nav-links1 {
-      height: auto;
-      display: flex;
-      margin-left: 10rem;
-    }
-    .nav-links1 a {
-      margin: 0 1rem;
-      padding: 0.5rem 0;
-    }
-  }
+
   .karba{
     font-family: 'Liu+Jian+Mao+Cao' ;
     border: 2px solid rgba(226, 201, 60, 0.993);
   }
-
+  .photo{
+    border-radius: 70% !important;
+  }
+ 

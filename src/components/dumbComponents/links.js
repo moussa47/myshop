@@ -8,11 +8,11 @@ import {GiRobe} from 'react-icons/gi';
 export default function Links() {
     return (
          <>
-           <div className="container-fluid text-center d-none d-lg-block">
-               <div className="row">
+           <div className="container-fluid text-center d-none d-lg-block link">
+               <div className="row lin">
              
                    <div  className="col-sm-12 col-md-12 mx-auto col-lg-4">
-                       <Link to='/chaussures'>
+                       <Link to='/modalshoe'>
                             <ButtonContainer cart>
                             <span className="mr-2">
                             <GiRunningShoe />
@@ -32,7 +32,7 @@ export default function Links() {
                        </Link>
                    </div>
                    <div  className="col-sm-12  col-md-12 mx-auto col-lg-4">
-                   <Link to='/vetements'>
+                   <Link to='/modalvet'>
                             <ButtonContainer cart>
                             <span className="mr-2">
                             <GiRobe />
@@ -45,11 +45,11 @@ export default function Links() {
                </div>
            </div>
 
-           <div className="container-fluid text-center d-sm-block d-lg-none">
-               <div className="row">
+           <div className="container-fluid text-center d-sm-block d-lg-none ">
+               <div className="row lin">
              
-                   <div  className="col-sm-12  col-md-12 mx-auto col-lg-4">
-                   <Link to='/chaussures'>
+                   <div  className="col-sm-12  col-md-12 mx-auto col-lg-4 ">
+                   <Link to='/modalshoe'>
                             <ButtonContainer cart>
                             <span className="mr-2">
                             <GiRunningShoe />
@@ -69,7 +69,7 @@ export default function Links() {
                        </Link>
                    </div>
                    <div  className="col-sm-12  col-md-12 mx-auto col-lg-4">
-                   <Link to='/vetements'>
+                   <Link to='/modalvet'>
                             <ButtonContainer cart>
                             <span className="mr-2">
                             <GiRobe />
